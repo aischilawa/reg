@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 2px solid #5fcf80;
+}
+
+.form-container{
+  padding: 5% 10%;
+  margin: 5% 10%;
+ background-color: #f8f8f8;
+ display: flex;
+ flex-direction: column;
+
+}
+
+input, select{
+    border: 2px solid #0ab13c;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+ 
+::placeholder, option{
+    color: #5fcf80;
+    background-color:  #f8f8f8;
+    font-size: 20px;
+    margin: 10px;
+}
+
+div{
+    margin: 10%;
+    align-items: center;
+    justify-content: center;
+
+}
